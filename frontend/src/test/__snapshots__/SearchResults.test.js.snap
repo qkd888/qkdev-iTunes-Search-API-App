@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly with empty array 1`] = `
+<h3
+  className="mt-5"
+>
+  No results
+</h3>
+`;
+
+exports[`Renders correctly with populuated array 1`] = `
+<div
+  className=" container resultsContainer"
+>
+  <h1
+    className=" heading mt-5 mb-5 "
+  >
+    Results
+  </h1>
+  <div>
+    <div
+      className=" shadow resultItem"
+    >
+      <div>
+        <img
+          alt="Thumbnail"
+          height={100}
+          src="www.loremIp.com"
+          width={100}
+        />
+        <p
+          className="artistName"
+        >
+          j cole
+           
+        </p>
+        <p
+          className="trackName"
+        >
+          4 your eyes
+           
+        </p>
+        <p
+          className="collectionName"
+        >
+          4 your eyes only
+           
+        </p>
+        <button
+          className="addFavourite"
+          onClick={[Function]}
+        >
+          Add To Favourites
+        </button>
+      </div>
+    </div>
+  </div>
+  <button
+    className=" mt-5 mb-5 clearBtn"
+  >
+     
+    Clear Results 
+    <i
+      className="fa fa-trash"
+    />
+  </button>
+   
+</div>
+`;

@@ -1,0 +1,156 @@
+body{
+  background-color:rgb(42, 73, 85);
+  color:rgba(255, 255, 255, 0.671);
+}
+.App {
+  /* Selecting the element with the class of App*/
+  text-align: center; /* Aligning the text on the center*/
+}
+.resultItem,
+.favouriteItem {
+  /* Selecting the elements with the classes resultItem and favouriteItem*/
+  margin: 20px 5px 8px 35px; /* Setting the margin*/
+  width: 300px; /* Setting the width*/
+  height: 300px; /* Setting the height*/
+  padding-top: 10px; /* Setting the padding-top*/
+}
+
+.resultsContainer,
+.favouritesContainer {
+  /* Selecting the elements with the classes resultsContainer and favouritesContainer*/
+  display: grid; /* Setting the display*/
+  grid-template-columns: 1fr 1fr 1fr; /* Setting the columns template*/
+}
+
+.addFavourite,
+.deleteFavourite {
+  /* Selecting the elements with the classes addFavourite and deletFavourite*/
+  border: 1px solid lightgray; /* Setting the border*/
+  outline: none; /* Setting the outline*/
+  background-color: none; /* Setting the background-color*/
+}
+
+.deleteFavourite:hover {
+  /*Selecting the element with the class of deleteFavourite and adding a hover pseudo class*/
+  color: red; /* Setting the color*/
+  cursor: pointer; /* Setting the cursor*/
+  font-size: 17px; /* Setting the font-size*/
+  background-color: rgb(224, 222, 222); /* Setting the background-color*/
+}
+
+.addFavourite:hover {
+  /*Selecting the element with the class of addFavourite and adding a hover pseudo class*/
+  cursor: pointer; /* Setting the cursor*/
+  font-size: 17px; /* Setting the font-size*/
+  background-color: rgb(224, 222, 222); /* Setting the background-color*/
+}
+
+.trackName,
+.collectionName {
+  /* Selecting the elements with the classes trackName and collectionName*/
+  width: 200px; /* Setting the width*/
+  word-break: break-all; /* Setting the word-break*/
+  margin: auto; /* Setting the margin*/
+}
+.trackName {
+  /* Selecting the element with the class of trackName*/
+  font-weight: bold; /* Setting the font-weight*/
+}
+
+.collectionName {
+  /* Selecting the element with the class of collectionName*/
+  margin-top: 5px; /* Setting the margin-top*/
+  margin-bottom: 15px; /* Setting the margin-bottom*/
+}
+
+.artistName {
+  /* Selecting the element with the class of artistName*/
+  color: rgb(94, 93, 93); /* Setting the color*/
+  margin-top: 5px; /* Setting the margin-top*/
+  margin-bottom: 0px; /* Setting the margin-bottom*/
+}
+
+.heading {
+  /* Selecting the element with the class of heading*/
+  grid-column-start: 1; /* Setting the grid-column-start*/
+  grid-column-end: 4; /* Setting the grid-column-end*/
+}
+.clearBtn {
+  /* Selecting the element with the class of clearBtn*/
+  grid-column-start: 2; /* Setting the grid-column-start*/
+  grid-column-end: 3; /* Setting the grid-column-end*/
+  border: 1px solid black; /* Setting the border*/
+  outline: none; /* Setting the outline*/
+}
+.clearBtn:hover {
+  /*Selecting the element with the class of clearBtn and adding a hover pseudo class*/
+  background-color: tomato; /* Setting the background-color*/
+}
+
+.select,
+.input {
+  /* Selecting the elements with the classes select and input*/
+  height: 30px; /* Setting the height*/
+  border: none; /* Setting the border*/
+  outline: none; /* Setting the outline*/
+}
+
+.input {
+  /* Selecting the element with the class of input*/
+  width: 300px; /* Setting the width*/
+}
+
+.searchBtn {
+  /* Selecting the element with the class of searchBtn*/
+  border-radius: 20px; /* Setting the border-radius*/
+  border: none; /* Setting the border*/
+  outline: none; /* Setting the outline*/
+  margin-right: 20px; /* Setting the margin-right*/
+}
+.searchBtn:hover {
+  /*Selecting the element with the class of searchBtn and adding a hover pseudo class*/
+  cursor: pointer; /* Setting the cursor*/
+}
+
+.searchInput {
+  /* Selecting the element with the class of searchInput*/
+  border: 1px solid rgb(151, 140, 140); /* Setting the border*/
+  background-color: rgb(19, 47, 54);
+  border-radius: 20px; /* Setting the border-radius*/
+  width: 650px; /* Setting the width*/
+  height: 60px; /* Setting the height*/
+  margin: 30px auto; /* Setting the margin*/
+  padding: 10px; /* Setting the padding*/
+  display: flex; /* Setting the display*/
+}
+input  {
+  background-color: rgb(19, 47, 54);
+  color:white;
+}
+select {
+  background-color: rgb(19, 47, 54);
+  color:white;
+}
+
+.inputContainer {
+  margin-right: 20px; /* Setting the margin-right*/
+  width: 400px; /* Setting the width*/
+  height: 40px; /* Setting the height*/
+  border-right: 1px solid black; /* Setting the border-right*/
+  margin-bottom: 15px; /* Setting the margin-bottom*/
+}
+.selectContainer {
+  /* Selecting the element with the class of selectContainer*/
+  margin-right: 30px; /* Setting the margin-right*/
+  width: 180px; /* Setting the width*/
+  height: 40px; /* Setting the height*/
+  border-right: 1px solid black; /* Setting the border-right*/
+  margin-bottom: 15px; /* Setting the margin-bottom*/
+}
+
+.mainHeading {
+  /* Selecting the element with the class of mainHeading*/
+  margin-top: 30px; /* Setting the margin-top*/
+  padding-top: 15px; /* Setting the padding-top*/
+  background-color:rgba(0, 0, 0, 0.322);
+}
