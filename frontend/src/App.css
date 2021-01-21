@@ -27,22 +27,26 @@ body{
   /* Selecting the elements with the classes addFavourite and deletFavourite*/
   border: 1px solid rgba(56, 53, 53, 0.76); /* Setting the border*/
   outline: none; /* Setting the outline*/
-  background-color: none; /* Setting the background-color*/
+  background-color: rgb(16, 24, 44); /* Setting the background-color*/
+  color:rgba(255, 255, 255, 0.328);
 }
 
 .deleteFavourite:hover {
   /*Selecting the element with the class of deleteFavourite and adding a hover pseudo class*/
-  color: red; /* Setting the color*/
+  color: rgb(37, 84, 116); /* Setting the color*/
   cursor: pointer; /* Setting the cursor*/
   font-size: 17px; /* Setting the font-size*/
-  background-color: rgb(224, 222, 222); /* Setting the background-color*/
+  background-color: rgb(45, 31, 31); /* Setting the background-color*/
+  
 }
 
 .addFavourite:hover {
   /*Selecting the element with the class of addFavourite and adding a hover pseudo class*/
   cursor: pointer; /* Setting the cursor*/
   font-size: 17px; /* Setting the font-size*/
-  background-color: rgb(224, 222, 222); /* Setting the background-color*/
+  background-color: rgb(49, 28, 28); /* Setting the background-color*/
+  color:white;
+  transition:  all 0.80 ease-out;
 }
 
 .trackName,
