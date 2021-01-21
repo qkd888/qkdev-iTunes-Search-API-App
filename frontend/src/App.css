@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(42, 73, 85);
+  background-color:rgb(19, 16, 29);
   color:rgba(255, 255, 255, 0.671);
 }
 .App {
@@ -25,7 +25,7 @@ body{
 .addFavourite,
 .deleteFavourite {
   /* Selecting the elements with the classes addFavourite and deletFavourite*/
-  border: 1px solid lightgray; /* Setting the border*/
+  border: 1px solid rgba(56, 53, 53, 0.76); /* Setting the border*/
   outline: none; /* Setting the outline*/
   background-color: none; /* Setting the background-color*/
 }
@@ -84,7 +84,7 @@ body{
 }
 .clearBtn:hover {
   /*Selecting the element with the class of clearBtn and adding a hover pseudo class*/
-  background-color: tomato; /* Setting the background-color*/
+  background-color: rgb(62, 68, 143), 83, 255); /* Setting the background-color*/
 }
 
 .select,
@@ -115,7 +115,7 @@ body{
 .searchInput {
   /* Selecting the element with the class of searchInput*/
   border: 1px solid rgb(151, 140, 140); /* Setting the border*/
-  background-color: rgb(19, 47, 54);
+  background-color: rgb(19, 32, 54);
   border-radius: 20px; /* Setting the border-radius*/
   width: 650px; /* Setting the width*/
   height: 60px; /* Setting the height*/
@@ -124,12 +124,13 @@ body{
   display: flex; /* Setting the display*/
 }
 input  {
-  background-color: rgb(19, 47, 54);
+  background-color: rgb(19, 25, 54);
   color:white;
+  border-radius: 10px;
 }
 select {
-  background-color: rgb(19, 47, 54);
-  color:white;
+  background-color: rgb(19, 27, 54);
+  color:rgba(255, 255, 255, 0.411);
 }
 
 .inputContainer {

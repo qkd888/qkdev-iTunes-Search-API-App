@@ -187,9 +187,10 @@ export default class App extends Component {
         <div className="container shadow  pb-1 ">
           <h1 className=" mainHeading">
             {" "}
-            Welcome to the Itunes Search Api App
+            qkdev Itunes Search Api App
           </h1>
           <h4>Search for your favourite content</h4>
+          <h7>Design by qkdev 2021 All rights reserved</h7>
 
           <i className="fa fa-music mr-2"></i>
           <i className="fa fa-podcast ml-1"></i>
@@ -214,8 +215,8 @@ export default class App extends Component {
             clearResults={this.clearResults}
           />
         ) : (
-          ""
-        )}
+            ""
+          )}
         {/*Favourites component */}
         <Favourites
           favourites={favourites}
