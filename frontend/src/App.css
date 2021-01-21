@@ -106,6 +106,7 @@ body{
   border: none; /* Setting the border*/
   outline: none; /* Setting the outline*/
   margin-right: 20px; /* Setting the margin-right*/
+  color: rgba(255, 255, 255, 0.308); /* Setting the color*/background-color: #1f1b30;
 }
 .searchBtn:hover {
   /*Selecting the element with the class of searchBtn and adding a hover pseudo class*/
