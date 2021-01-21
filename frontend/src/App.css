@@ -31,12 +31,13 @@ body{
   color:rgba(255, 255, 255, 0.328);
 }
 
+
 .deleteFavourite:hover {
   /*Selecting the element with the class of deleteFavourite and adding a hover pseudo class*/
   color: rgb(37, 84, 116); /* Setting the color*/
   cursor: pointer; /* Setting the cursor*/
   font-size: 17px; /* Setting the font-size*/
-  background-color: rgb(45, 31, 31); /* Setting the background-color*/
+  background-color: rgba(31, 37, 45, 0.472); /* Setting the background-color*/
   
 }
 
@@ -44,7 +45,7 @@ body{
   /*Selecting the element with the class of addFavourite and adding a hover pseudo class*/
   cursor: pointer; /* Setting the cursor*/
   font-size: 17px; /* Setting the font-size*/
-  background-color: rgb(49, 28, 28); /* Setting the background-color*/
+  background-color: rgb(28, 33, 49); /* Setting the background-color*/
   color:white;
   transition:  all 0.80 ease-out;
 }
@@ -110,11 +111,12 @@ body{
   border: none; /* Setting the border*/
   outline: none; /* Setting the outline*/
   margin-right: 20px; /* Setting the margin-right*/
-  color: rgba(255, 255, 255, 0.308); /* Setting the color*/background-color: #1f1b30;
+  color: rgba(109, 112, 117, 0.596); /* Setting the color*/background-color: #1f1b30;
 }
 .searchBtn:hover {
   /*Selecting the element with the class of searchBtn and adding a hover pseudo class*/
   cursor: pointer; /* Setting the cursor*/
+  color:rgba(255, 255, 255, 0.459);
 }
 
 .searchInput {
@@ -129,12 +131,12 @@ body{
   display: flex; /* Setting the display*/
 }
 input  {
-  background-color: rgb(19, 25, 54);
+  background-color: rgb(23, 24, 26);
   color:white;
   border-radius: 10px;
 }
 select {
-  background-color: rgb(19, 27, 54);
+  background-color: rgb(23, 24, 26);
   color:rgba(255, 255, 255, 0.411);
 }
 
