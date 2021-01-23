@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(22, 30, 54);
+  background-color:rgb(37, 48, 82);
   color:rgba(255, 255, 255, 0.671);
 }
 .App {
@@ -122,7 +122,7 @@ body{
 .searchInput {
   /* Selecting the element with the class of searchInput*/
   border: 1px solid rgb(151, 140, 140); /* Setting the border*/
-  background-color: rgb(19, 32, 54);
+  background-color: rgb(28, 40, 59);
   border-radius: 20px; /* Setting the border-radius*/
   width: 650px; /* Setting the width*/
   height: 60px; /* Setting the height*/
